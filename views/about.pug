@@ -1,0 +1,58 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 Evan Picone
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | Full Stack JavaScript Developer
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            | Tech savvy, team player. I have worked alongside tech companies for the past five years.
+            |
+          p 
+            | Experience in HTML, CSS, JavaScript front and backend web development. 
+            |
+          p   
+            | Focused and driven to produce results for your team.
+            |
+      
+      
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          li JavaScript
+          li HTML
+          li CSS
+          li jQuery
+          li Node.js
+          li AJAX
+          li Express
+          li Pug
+          li GIT
+
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li 201-310-0310
+          li epiconensx@gmx.com
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href='https://www.linkedin.com/in/evan-picone-26405021/') LinkedIn
+        a.button.expanded(href='https://github.com/ShockRockStar') GitHub
+        
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

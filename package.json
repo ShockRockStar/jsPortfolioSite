@@ -1,0 +1,27 @@
+{
+  "name": "techdegree-project-6",
+  "version": "1.0.0",
+  "description": "Portfolio app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShockRockStar/jsPortfolioSite"
+  },
+  "keywords": [],
+  "author": "Evan Picone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShockRockStar/jsPortfolioSite/issues"
+  },
+  "homepage": "https://github.com/ShockRockStar/jsPortfolioSite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
